@@ -1,0 +1,80 @@
+
+
+@media screen and (max-width: 480px)
+{
+    header
+{
+    
+    
+    .info
+    {
+        
+        .email, .tele
+    {
+        display: none;
+        
+    }
+    
+
+    }
+    .menu 
+    {
+        display: none;
+    }
+    .local 
+    {
+        display: block;
+        cursor: pointer;
+        margin: 0.9em 0.9em 0.5em auto;
+        
+    }
+    
+}
+
+
+.selection 
+{
+    .descreption 
+
+    {
+        margin-top: 10em;
+        h1 
+        {
+            font-size: 20px;
+            margin: 1em 3em 1em -2em;
+        }
+        p
+        {
+            font-size: 16px;
+            margin: 0.5em 1em 1em -4em;
+            text-align: center;
+        }
+        button
+        {
+margin: 0.5em 2em 0 -2em;
+        }
+        .trais 
+{
+    width: 200px;
+    height: 3px;
+    margin-left: -6em;
+    background: crimson;
+}
+    
+    }
+}
+#services 
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+}
+.lemenu 
+{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color: white;
+}
